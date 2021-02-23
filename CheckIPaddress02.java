@@ -14,6 +14,8 @@ public class CheckIPaddress02 {
         return !ip.endsWith(".") && !ip.startsWith("0") && !ip.startsWith(".") && !ip.endsWith(":") && !ip.startsWith(":");
 
     }
+    
+    //--IPv4 checking method
 
     public static boolean checkIPv4 (String ip)
     {
@@ -40,7 +42,7 @@ try{
         return true;
     }
 
-//--IPv6 checking Method
+//--IPv6 checking method
 
     public static boolean checkIPv6 (String ip) {
 try{
